@@ -14,9 +14,45 @@
 	<title></title>
 </head>
 <body>
+	<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">WebSiteName</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="/">Home</a></li>
+      <li><a href="/about">About</a></li>
+      <li><a href="/services">Services</a></li>
+      <li><a href="/products">Products</a></li>
+      <li><a href="/contactus">Contact Us</a></li>
+    </ul>
+  </div>
+</nav>
 	<div class="container">
-		<h1>Contact Us Page</h1>
-	</div>
+		<h1 class="text-center">Contact Us</h1>
+	<form action="" method="post">
+
+		<div class="form-group">
+		  <label for="usr">Name:</label>
+		  <input type="text" class="form-control" id="usr">
+		</div>
+		<div class="form-group">
+	    <label for="email">Email:</label>
+	    <input type="email" class="form-control" id="email">
+	  </div>
+	  <div class="form-group">
+		  <label for="title">Title:</label>
+		  <input type="text" class="form-control" id="title">
+		</div>
+		<div class="form-group">
+		  <label for="msg">Message:</label>
+		  <textarea class="form-control" rows="5" id="msg"></textarea>
+		</div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+
+	   </div>
 
 </body>
 </html>
